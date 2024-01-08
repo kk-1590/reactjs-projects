@@ -40,6 +40,12 @@ export const menus = [
           {
             label: "Login",
             to: "login",
+            children: [
+                {
+                    label : "Signup",
+                    to : "",
+                }
+            ]
           },
           {
             label: "Register",
