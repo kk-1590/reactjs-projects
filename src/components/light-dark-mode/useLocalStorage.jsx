@@ -12,7 +12,6 @@ export default function useLocalStorage(key,defaultValue){
             currentValue = defaultValue;
         }
 
-
         return currentValue;
     });
 
