@@ -59,7 +59,6 @@ const ScrollIndicator = ({ url }) => {
       <h1>Custom Scroll Indicator</h1>
       <div className="scroll-progress-tracking-indicator">
         <div className="current-progress-bar" style={{width: `${scrollPercentage}%`,backgroundColor:"blue",height:'5px',position:'fixed',top:'0px'}}> 
-
         </div>
       </div>
       <div className="data-container">
