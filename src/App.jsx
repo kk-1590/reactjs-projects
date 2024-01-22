@@ -1,3 +1,4 @@
+import ModalTest from './components/custom-modal-popup/modal-test';
 import TabTest from './components/custom-tabs/tab-test';
 import ImageSlider from './components/image-slider'
 import LightDarkMode from './components/light-dark-mode';
@@ -19,7 +20,8 @@ function App() {
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      <ModalTest />
     </>
   );
 }
