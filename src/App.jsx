@@ -4,6 +4,7 @@ import ImageSlider from './components/image-slider'
 import LightDarkMode from './components/light-dark-mode';
 import QRCodeGenerator from './components/qr-code';
 import ScrollIndicator from './components/scroll-indicator';
+import SearchAutocomplete from './components/search-autocomplete';
 import TreeView from './components/tree-view';
 import menus from './components/tree-view/data';
 
@@ -21,7 +22,8 @@ function App() {
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabTest /> */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+      <SearchAutocomplete />
     </>
   );
 }
