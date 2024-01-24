@@ -1,5 +1,7 @@
 import ModalTest from './components/custom-modal-popup/modal-test';
 import TabTest from './components/custom-tabs/tab-test';
+import FeatureFlag from './components/feature-flag';
+import FeatureFlagGlobalState from './components/feature-flag/context';
 import ImageSlider from './components/image-slider'
 import LightDarkMode from './components/light-dark-mode';
 import QRCodeGenerator from './components/qr-code';
@@ -25,7 +27,10 @@ function App() {
       {/* <TabTest /> */}
       {/* <ModalTest /> */}
       {/* <SearchAutocomplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState>
     </>
   );
 }
