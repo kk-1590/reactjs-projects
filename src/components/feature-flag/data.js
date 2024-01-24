@@ -5,7 +5,7 @@ const dummyApiResponse = {
     showTicTacToeBoard : true,
     showRandomColorGenrator :true,
     showAccordion : false,
-    showTreeView : false,
+    showTreeView : true,
 }
 
 function featureFlagDataServiceCall(){
