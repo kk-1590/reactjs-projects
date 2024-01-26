@@ -1,3 +1,4 @@
+import Autocomplete from './components/autocomplete';
 import ModalTest from './components/custom-modal-popup/modal-test';
 import TabTest from './components/custom-tabs/tab-test';
 import FeatureFlag from './components/feature-flag';
@@ -28,9 +29,10 @@ function App() {
       {/* <ModalTest /> */}
       {/* <SearchAutocomplete /> */}
       {/* <TicTacToe /> */}
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlag />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
+      <Autocomplete />
     </>
   );
 }
